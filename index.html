@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional Football Analysis, Match Reviews, Player Stats, and Tactical Breakdowns.">
+    <meta name="keywords" content="Football, Analysis, Stats, Match Reviews, Player Stats">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="GoalGrid - Football Analysis & Stats">
+    <meta property="og:description" content="Professional Football Analysis, Match Reviews, Player Stats, and Tactical Breakdowns.">
+    <meta property="og:image" content="path/to/social-media-image.jpg">
+    <meta property="og:url" content="https://goalgrid.com">
 </head>
 <body>
     <!-- Navigation -->
@@ -31,54 +39,56 @@
     </header>
 
     <!-- Featured Posts Grid -->
-    <section class="featured-posts" id="reviews">
-        <div class="container">
-            <h2>Latest Match Reviews</h2>
-            <div class="posts-grid">
-                <article class="post-card">
-                    <img src="match1.jpg" alt="Man City vs Arsenal">
-                    <div class="post-content">
-                        <h3>Premier League: City's Dominance</h3>
-                        <div class="match-meta">
-                            <span class="rating">4.8 <i class="fas fa-star"></i></span>
-                            <span class="goals"><i class="fas fa-futbol"></i> 3-1</span>
+    <main>
+        <section class="featured-posts" id="reviews">
+            <div class="container">
+                <h2>Latest Match Reviews</h2>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <img src="match1.jpg" alt="Man City vs Arsenal">
+                        <div class="post-content">
+                            <h3>Premier League: City's Dominance</h3>
+                            <div class="match-meta">
+                                <span class="rating">4.8 <i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="goals"><i class="fas fa-futbol" aria-hidden="true"></i> 3-1</span>
+                            </div>
+                            <p>Tactical analysis of Haaland's brace...</p>
+                            <a href="#" class="btn">Read Review</a>
                         </div>
-                        <p>Tactical analysis of Haaland's brace...</p>
-                        <a href="#" class="btn">Read Review</a>
-                    </div>
-                </article>
-                <!-- Add more post cards -->
+                    </article>
+                    <!-- Add more post cards -->
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Stats Hub Section -->
-    <section class="stats-hub" id="stats">
-        <div class="container">
-            <h2>Top Scorers 2023/24</h2>
-            <div class="stats-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Player</th>
-                            <th>Club</th>
-                            <th>Goals</th>
-                            <th>Assists</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Erling Haaland</td>
-                            <td>Man City</td>
-                            <td>28</td>
-                            <td>6</td>
-                        </tr>
-                        <!-- Add more rows -->
-                    </tbody>
-                </table>
+        <!-- Stats Hub Section -->
+        <section class="stats-hub" id="stats">
+            <div class="container">
+                <h2>Top Scorers 2023/24</h2>
+                <div class="stats-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Club</th>
+                                <th>Goals</th>
+                                <th>Assists</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Erling Haaland</td>
+                                <td>Man City</td>
+                                <td>28</td>
+                                <td>6</td>
+                            </tr>
+                            <!-- Add more rows -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Newsletter Section -->
     <section class="newsletter">
@@ -96,9 +106,9 @@
         <div class="container">
             <p>&copy; 2023 GoalGrid. All rights reserved.</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube" aria-label="YouTube"></i></a>
             </div>
         </div>
     </footer>

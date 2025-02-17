@@ -10,6 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: var(--dark-text);
+    background-color: var(--light-bg);
 }
 
 .container {
@@ -49,7 +50,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), url('stadium-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('stadium-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 70vh;
